@@ -27,7 +27,7 @@ Requires Node 22+ and pnpm 10 (`corepack enable`, or prefix commands with `npx p
 ```bash
 pnpm install
 cp .env.example .env.local
-pnpm dev                 # http://localhost:3000, style guide at /style-guide
+pnpm dev                 # http://localhost:3200, style guide at /style-guide
 ```
 
 | Command | What it does |
