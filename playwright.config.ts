@@ -11,7 +11,7 @@ export default defineConfig({
     trace: "on-first-retry",
   },
   webServer: {
-    command: `pnpm start --port ${PORT}`,
+    command: `npx next start --port ${PORT}`,
     port: PORT,
     reuseExistingServer: true,
     timeout: 120_000,
