@@ -1,0 +1,117 @@
+/*
+ * Shazaar design tokens (Tailwind v4 @theme). Mirrored in /tokens.json;
+ * src/styles/tokens.test.ts fails if the two drift apart.
+ *
+ * Gold rules: gold (#B26F06, 3.78:1 on canvas) is for accents, large text,
+ * icons, rules and focus rings only. Body-size gold text uses gold-deep.
+ * Never put light text on a gold fill (3.90:1). No gradients, no glows.
+ */
+@theme {
+  --color-*: initial;
+  --color-canvas: #faf6ef;
+  --color-surface: #fefcf8;
+  --color-sunk: #f1ece4;
+  --color-ink: #1b1410;
+  --color-ink-muted: #5c534e;
+  --color-on-ink: #fdfaf3;
+  --color-gold: #b26f06;
+  --color-gold-deep: #934400;
+  --color-gold-soft: #f2dbb1;
+  --color-gold-logo: #c17f25;
+  --color-line: #e4ddd3;
+  --color-line-strong: #8c827b;
+  --color-success: #007a55;
+  --color-error: #b3261e;
+  --color-scrim: #0e0b08;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+
+  /* Radii: 2 / 8 / 16 only. `full` is reserved for circular controls (dots, icon buttons). */
+  --radius-*: initial;
+  --radius-sharp: 2px;
+  --radius-soft: 8px;
+  --radius-card: 16px;
+  --radius-full: 9999px;
+
+  /* Two shadows, nothing else. */
+  --shadow-*: initial;
+  --shadow-raise: 0 1px 2px rgb(27 20 16 / 0.06), 0 12px 32px -16px rgb(27 20 16 / 0.22);
+  --shadow-float: 0 32px 64px -24px rgb(14 11 8 / 0.45);
+
+  --tracking-eyebrow: 0.22em;
+
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --container-page: 1440px;
+  --container-prose: 42rem;
+}
+
+:root {
+  --gutter: 16px;
+  --duration-ui: 200ms;
+  --duration-reveal: 700ms;
+  --duration-fade: 1200ms;
+  --hero-dwell: 6000ms;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --gutter: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --gutter: 56px;
+  }
+}
+
+/*
+ * Typography lives in an inline theme so utilities resolve the variables on
+ * the element itself: a lang="ar" block (or a lang="fr" title inside an
+ * Arabic page) gets the right families and scale wherever it sits.
+ */
+@theme inline {
+  --font-*: initial;
+  --font-display: var(--ff-display);
+  --font-sans: var(--ff-sans);
+
+  /* Fluid type scale. --type-scale / --leading-scale grow for Arabic. */
+  --text-*: initial;
+  --text-xs: calc(0.75rem * var(--type-scale));
+  --text-xs--line-height: calc(1.5 * var(--leading-scale));
+  --text-sm: calc(0.875rem * var(--type-scale));
+  --text-sm--line-height: calc(1.55 * var(--leading-scale));
+  --text-base: calc(clamp(1rem, 0.96rem + 0.2vw, 1.0625rem) * var(--type-scale));
+  --text-base--line-height: calc(1.6 * var(--leading-scale));
+  --text-lg: calc(clamp(1.125rem, 1.05rem + 0.35vw, 1.25rem) * var(--type-scale));
+  --text-lg--line-height: calc(1.55 * var(--leading-scale));
+  --text-xl: calc(clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem) * var(--type-scale));
+  --text-xl--line-height: calc(1.4 * var(--leading-scale));
+  --text-2xl: calc(clamp(1.5rem, 1.25rem + 1vw, 2rem) * var(--type-scale));
+  --text-2xl--line-height: calc(1.25 * var(--leading-scale));
+  --text-3xl: calc(clamp(2rem, 1.5rem + 2vw, 3rem) * var(--type-scale));
+  --text-3xl--line-height: calc(1.15 * var(--leading-scale));
+  --text-4xl: calc(clamp(2.5rem, 1.75rem + 3vw, 4rem) * var(--type-scale));
+  --text-4xl--line-height: calc(1.08 * var(--leading-scale));
+  --text-5xl: calc(clamp(2.75rem, 1.75rem + 4.5vw, 5.5rem) * var(--type-scale));
+  --text-5xl--line-height: calc(1.02 * var(--leading-scale));
+
+}
+
+:root,
+[lang]:not(:lang(ar)) {
+  --type-scale: 1;
+  --leading-scale: 1;
+  --ff-display: var(--font-fraunces), Georgia, serif;
+  --ff-sans: var(--font-manrope), system-ui, sans-serif;
+}
+
+/* Arabic: different families, slightly larger size and line-height. */
+:lang(ar) {
+  --type-scale: 1.08;
+  --leading-scale: 1.12;
+  --ff-display: var(--font-amiri), var(--font-fraunces), serif;
+  --ff-sans: var(--font-plex-arabic), var(--font-manrope), Tahoma, sans-serif;
+}

@@ -1,0 +1,123 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+@custom-variant rtl (&:where([dir="rtl"], [dir="rtl"] *));
+
+@layer base {
+  html {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--ff-sans);
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    scroll-padding-top: 5rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    min-height: 100dvh;
+    background-color: var(--color-canvas);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--ff-display);
+    font-weight: 400;
+    text-wrap: balance;
+    font-optical-sizing: auto;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background-color: var(--color-gold-soft);
+    color: var(--color-ink);
+  }
+
+  /* One visible focus style everywhere: 2px gold ring, offset from the element. */
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: var(--radius-sharp);
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+}
+
+@layer utilities {
+  .eyebrow {
+    font-family: var(--ff-sans);
+    font-size: var(--text-xs);
+    font-weight: 600;
+    letter-spacing: var(--tracking-eyebrow);
+    text-transform: uppercase;
+  }
+
+  /* Arabic has no letter case and must never be letter-spaced. */
+  :lang(ar) .eyebrow {
+    letter-spacing: 0;
+    text-transform: none;
+    font-size: var(--text-sm);
+  }
+
+  .page-x {
+    padding-inline: var(--gutter);
+  }
+
+  .hairline {
+    border-color: var(--color-line);
+    border-width: 1px;
+  }
+
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Motion: everything decorative switches off with reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes shz-pulse {
+  50% {
+    opacity: 0.55;
+  }
+}
+
+@keyframes shz-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+/* Gentle Ken Burns: transform only (compositor), never with reduced motion. */
+@keyframes shz-kenburns {
+  from {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1.09);
+  }
+}
