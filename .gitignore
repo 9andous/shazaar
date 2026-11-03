@@ -1,0 +1,46 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# next.js / build
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# testing
+coverage/
+playwright-report/
+test-results/
+blob-report/
+
+# env and secrets (only .env.example is committed)
+.env
+.env.*
+!.env.example
+
+# supabase local state
+supabase/.branches/
+supabase/.temp/
+
+# vercel
+.vercel/
+
+# raw scrapes and full photo sets (never committed: private fields / image rights)
+.cache/
+scripts/.raw/
+public/dev-images/full/
+
+# logs and OS files
+npm-debug.log*
+pnpm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
+
+# editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
