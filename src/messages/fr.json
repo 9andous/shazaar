@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Shazaar · Réservez l'extraordinaire.",
+    "description": "Piscines, villas, jardins, rooftops et salles privées en Tunisie, à réserver à l'heure.",
+    "styleGuideTitle": "Guide de style"
+  },
+  "brand": {
+    "name": "Shazaar",
+    "tagline": "Réservez l'extraordinaire.",
+    "home": "Shazaar, accueil"
+  },
+  "a11y": {
+    "skipToContent": "Aller au contenu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "close": "Fermer",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "pause": "Mettre en pause le diaporama",
+    "play": "Reprendre le diaporama",
+    "slideOf": "{current} sur {total}",
+    "carousel": "Espaces les plus réservés"
+  },
+  "nav": {
+    "findSpace": "Trouver un espace",
+    "listSpace": "Proposer mon espace",
+    "signIn": "Connexion / Inscription",
+    "home": "Accueil",
+    "wishlist": "Favoris",
+    "login": "Connexion",
+    "primary": "Navigation principale"
+  },
+  "locale": {
+    "label": "Langue",
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية"
+  },
+  "currency": {
+    "label": "Devise",
+    "TND": "Dinar tunisien (DT)",
+    "EUR": "Euro (€)",
+    "USD": "Dollar US ($)",
+    "paymentNote": "Paiement en dinars (TND) sur place",
+    "approxNote": "Montant indicatif, converti au taux du {date}"
+  },
+  "price": {
+    "from": "à partir de <b>{price}</b>",
+    "unit": {
+      "hour": "/ heure",
+      "90min": "/ 1 h 30",
+      "night": "/ nuit"
+    }
+  },
+  "listing": {
+    "guestsUpTo": "Jusqu'à {count, plural, one {# invité} other {# invités}}",
+    "guestsIncluded": "{included} inclus, jusqu'à {max} avec supplément",
+    "verified": "Vérifié",
+    "popular": "Populaire",
+    "hostedBy": "Proposé par {name}",
+    "book": "Réserver",
+    "view": "Voir",
+    "addToWishlist": "Ajouter aux favoris",
+    "removeFromWishlist": "Retirer des favoris",
+    "photoOf": "Photo {index} sur {total}"
+  },
+  "categories": {
+    "pools": "Piscines",
+    "villas": "Villas",
+    "pro": "Salles & espaces pro",
+    "outdoor": "Extérieur & jardins",
+    "rooftops": "Rooftops",
+    "cinema-gaming": "Cinéma & gaming",
+    "sport": "Sport",
+    "studios": "Studios",
+    "yachts": "Yachts",
+    "cafes": "Cafés",
+    "hammam": "Hammam",
+    "other": "Autres"
+  },
+  "useCases": {
+    "celebrate": "Célébrer",
+    "relax": "Se détendre",
+    "shoot": "Shooting",
+    "meet": "Se retrouver",
+    "play": "Jouer",
+    "study": "Étudier",
+    "work": "Travailler",
+    "watch": "Regarder",
+    "create": "Créer"
+  },
+  "governorates": {
+    "tunis": "Tunis",
+    "ariana": "Ariana",
+    "ben-arous": "Ben Arous",
+    "manouba": "Manouba",
+    "nabeul": "Nabeul",
+    "bizerte": "Bizerte",
+    "sousse": "Sousse",
+    "monastir": "Monastir",
+    "sfax": "Sfax",
+    "medenine": "Médenine",
+    "gabes": "Gabès",
+    "zaghouan": "Zaghouan",
+    "other": "Autres"
+  },
+  "amenities": {
+    "wifi": "Wi-Fi",
+    "toilets": "Toilettes",
+    "shower": "Douche",
+    "garden": "Jardin",
+    "private-pool": "Piscine privée",
+    "sunbeds": "Transats",
+    "outdoor-lounge": "Salon extérieur",
+    "outdoor-dining": "Salle à manger extérieure",
+    "outdoor-kitchen": "Cuisine extérieure",
+    "kitchen": "Cuisine",
+    "lounge": "Salon",
+    "large-tv": "Grand écran TV",
+    "cinema-projector": "Projecteur cinéma",
+    "netflix": "Netflix",
+    "playstation-5": "PlayStation 5"
+  },
+  "states": {
+    "loading": "Chargement…",
+    "loadMore": "Afficher plus d'espaces",
+    "empty": "Aucun espace ne correspond à ces critères.",
+    "reset": "Réinitialiser les filtres",
+    "results": "{count, plural, =0 {Aucun espace} one {# espace} other {# espaces}}"
+  },
+  "forms": {
+    "search": "Rechercher",
+    "searchPlaceholder": "Piscine, rooftop, quartier…",
+    "guests": "Invités",
+    "city": "Ville",
+    "allCities": "Toutes les villes",
+    "category": "Catégorie",
+    "maxPrice": "Prix maximum",
+    "more": "Plus",
+    "email": "E-mail",
+    "emailHint": "Nous ne partageons jamais votre e-mail.",
+    "emailError": "Saisissez une adresse e-mail valide."
+  }
+}

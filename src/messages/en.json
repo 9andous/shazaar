@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Shazaar · Reserve the Extraordinary.",
+    "description": "Private pools, villas, gardens, rooftops and rooms in Tunisia, bookable by the hour.",
+    "styleGuideTitle": "Style guide"
+  },
+  "brand": {
+    "name": "Shazaar",
+    "tagline": "Reserve the Extraordinary.",
+    "home": "Shazaar, home"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "pause": "Pause slideshow",
+    "play": "Resume slideshow",
+    "slideOf": "{current} of {total}",
+    "carousel": "Most booked spaces"
+  },
+  "nav": {
+    "findSpace": "Find a space",
+    "listSpace": "List your space",
+    "signIn": "Log in / Sign up",
+    "home": "Home",
+    "wishlist": "Wishlist",
+    "login": "Log in",
+    "primary": "Main navigation"
+  },
+  "locale": {
+    "label": "Language",
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية"
+  },
+  "currency": {
+    "label": "Currency",
+    "TND": "Tunisian dinar (DT)",
+    "EUR": "Euro (€)",
+    "USD": "US dollar ($)",
+    "paymentNote": "Paid in dinars (TND) on site",
+    "approxNote": "Indicative amount, converted at the {date} rate"
+  },
+  "price": {
+    "from": "from <b>{price}</b>",
+    "unit": {
+      "hour": "/ hour",
+      "90min": "/ 90 min",
+      "night": "/ night"
+    }
+  },
+  "listing": {
+    "guestsUpTo": "Up to {count, plural, one {# guest} other {# guests}}",
+    "guestsIncluded": "{included} included, up to {max} with a supplement",
+    "verified": "Verified",
+    "popular": "Popular",
+    "hostedBy": "Hosted by {name}",
+    "book": "Book",
+    "view": "View",
+    "addToWishlist": "Add to wishlist",
+    "removeFromWishlist": "Remove from wishlist",
+    "photoOf": "Photo {index} of {total}"
+  },
+  "categories": {
+    "pools": "Pools",
+    "villas": "Villas",
+    "pro": "Rooms & pro spaces",
+    "outdoor": "Outdoor & gardens",
+    "rooftops": "Rooftops",
+    "cinema-gaming": "Cinema & gaming",
+    "sport": "Sport",
+    "studios": "Studios",
+    "yachts": "Yachts",
+    "cafes": "Cafés",
+    "hammam": "Hammam",
+    "other": "Other"
+  },
+  "useCases": {
+    "celebrate": "Celebrate",
+    "relax": "Relax",
+    "shoot": "Shoot",
+    "meet": "Meet",
+    "play": "Play",
+    "study": "Study",
+    "work": "Work",
+    "watch": "Watch",
+    "create": "Create"
+  },
+  "governorates": {
+    "tunis": "Tunis",
+    "ariana": "Ariana",
+    "ben-arous": "Ben Arous",
+    "manouba": "Manouba",
+    "nabeul": "Nabeul",
+    "bizerte": "Bizerte",
+    "sousse": "Sousse",
+    "monastir": "Monastir",
+    "sfax": "Sfax",
+    "medenine": "Medenine",
+    "gabes": "Gabes",
+    "zaghouan": "Zaghouan",
+    "other": "Other"
+  },
+  "amenities": {
+    "wifi": "Wi-Fi",
+    "toilets": "Toilets",
+    "shower": "Shower",
+    "garden": "Garden",
+    "private-pool": "Private pool",
+    "sunbeds": "Sunbeds",
+    "outdoor-lounge": "Outdoor lounge",
+    "outdoor-dining": "Outdoor dining area",
+    "outdoor-kitchen": "Outdoor kitchen",
+    "kitchen": "Kitchen",
+    "lounge": "Lounge",
+    "large-tv": "Large TV",
+    "cinema-projector": "Cinema projector",
+    "netflix": "Netflix",
+    "playstation-5": "PlayStation 5"
+  },
+  "states": {
+    "loading": "Loading…",
+    "loadMore": "Show more spaces",
+    "empty": "No spaces match these filters.",
+    "reset": "Reset filters",
+    "results": "{count, plural, =0 {No spaces} one {# space} other {# spaces}}"
+  },
+  "forms": {
+    "search": "Search",
+    "searchPlaceholder": "Pool, rooftop, neighbourhood…",
+    "guests": "Guests",
+    "city": "City",
+    "allCities": "All cities",
+    "category": "Category",
+    "maxPrice": "Maximum price",
+    "more": "More",
+    "email": "Email",
+    "emailHint": "We never share your email.",
+    "emailError": "Enter a valid email address."
+  }
+}

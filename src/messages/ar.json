@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Shazaar · احجز الاستثنائي.",
+    "description": "مسابح وفيلات وحدائق وأسطح وقاعات خاصة في تونس، للحجز بالساعة.",
+    "styleGuideTitle": "دليل التصميم"
+  },
+  "brand": {
+    "name": "Shazaar",
+    "tagline": "احجز الاستثنائي.",
+    "home": "Shazaar، الصفحة الرئيسية"
+  },
+  "a11y": {
+    "skipToContent": "انتقل إلى المحتوى",
+    "openMenu": "افتح القائمة",
+    "closeMenu": "أغلق القائمة",
+    "close": "إغلاق",
+    "previous": "السابق",
+    "next": "التالي",
+    "pause": "أوقف العرض مؤقتًا",
+    "play": "استأنف العرض",
+    "slideOf": "{current} من {total}",
+    "carousel": "الفضاءات الأكثر حجزًا"
+  },
+  "nav": {
+    "findSpace": "ابحث عن فضاء",
+    "listSpace": "اعرض فضاءك",
+    "signIn": "تسجيل الدخول / إنشاء حساب",
+    "home": "الرئيسية",
+    "wishlist": "المفضلة",
+    "login": "تسجيل الدخول",
+    "primary": "التنقل الرئيسي"
+  },
+  "locale": {
+    "label": "اللغة",
+    "fr": "Français",
+    "en": "English",
+    "ar": "العربية"
+  },
+  "currency": {
+    "label": "العملة",
+    "TND": "دينار تونسي (د.ت)",
+    "EUR": "يورو (€)",
+    "USD": "دولار أمريكي ($)",
+    "paymentNote": "الدفع بالدينار التونسي في عين المكان",
+    "approxNote": "مبلغ تقريبي، محوّل حسب سعر {date}"
+  },
+  "price": {
+    "from": "ابتداءً من <b>{price}</b>",
+    "unit": {
+      "hour": "/ الساعة",
+      "90min": "/ ساعة ونصف",
+      "night": "/ الليلة"
+    }
+  },
+  "listing": {
+    "guestsUpTo": "حتى {count, plural, one {ضيف واحد} two {ضيفين} few {# ضيوف} many {# ضيفًا} other {# ضيف}}",
+    "guestsIncluded": "{included} مشمولون، وحتى {max} مع مبلغ إضافي",
+    "verified": "موثّق",
+    "popular": "الأكثر طلبًا",
+    "hostedBy": "يقدّمه {name}",
+    "book": "احجز",
+    "view": "اكتشف",
+    "addToWishlist": "أضف إلى المفضلة",
+    "removeFromWishlist": "أزل من المفضلة",
+    "photoOf": "الصورة {index} من {total}"
+  },
+  "categories": {
+    "pools": "مسابح",
+    "villas": "فيلات",
+    "pro": "قاعات وفضاءات مهنية",
+    "outdoor": "فضاءات خارجية وحدائق",
+    "rooftops": "أسطح",
+    "cinema-gaming": "سينما وألعاب",
+    "sport": "رياضة",
+    "studios": "استوديوهات",
+    "yachts": "يخوت",
+    "cafes": "مقاهٍ",
+    "hammam": "حمّام",
+    "other": "أخرى"
+  },
+  "useCases": {
+    "celebrate": "احتفل",
+    "relax": "استرخِ",
+    "shoot": "صوّر",
+    "meet": "التقِ",
+    "play": "العب",
+    "study": "ادرس",
+    "work": "اعمل",
+    "watch": "شاهد",
+    "create": "أبدع"
+  },
+  "governorates": {
+    "tunis": "تونس",
+    "ariana": "أريانة",
+    "ben-arous": "بن عروس",
+    "manouba": "منوبة",
+    "nabeul": "نابل",
+    "bizerte": "بنزرت",
+    "sousse": "سوسة",
+    "monastir": "المنستير",
+    "sfax": "صفاقس",
+    "medenine": "مدنين",
+    "gabes": "قابس",
+    "zaghouan": "زغوان",
+    "other": "أخرى"
+  },
+  "amenities": {
+    "wifi": "واي فاي",
+    "toilets": "دورة مياه",
+    "shower": "دُش",
+    "garden": "حديقة",
+    "private-pool": "مسبح خاص",
+    "sunbeds": "كراسي استلقاء",
+    "outdoor-lounge": "صالون خارجي",
+    "outdoor-dining": "ركن أكل خارجي",
+    "outdoor-kitchen": "مطبخ خارجي",
+    "kitchen": "مطبخ",
+    "lounge": "صالون",
+    "large-tv": "تلفاز كبير",
+    "cinema-projector": "جهاز عرض سينمائي",
+    "netflix": "Netflix",
+    "playstation-5": "PlayStation 5"
+  },
+  "states": {
+    "loading": "جارٍ التحميل…",
+    "loadMore": "اعرض المزيد من الفضاءات",
+    "empty": "لا توجد فضاءات تطابق هذه المعايير.",
+    "reset": "إعادة ضبط المعايير",
+    "results": "{count, plural, =0 {لا فضاءات} one {فضاء واحد} two {فضاءان} few {# فضاءات} many {# فضاءً} other {# فضاء}}"
+  },
+  "forms": {
+    "search": "ابحث",
+    "searchPlaceholder": "مسبح، سطح، حيّ…",
+    "guests": "الضيوف",
+    "city": "المدينة",
+    "allCities": "كل المدن",
+    "category": "الفئة",
+    "maxPrice": "السعر الأقصى",
+    "more": "المزيد",
+    "email": "البريد الإلكتروني",
+    "emailHint": "لا نشارك بريدك الإلكتروني أبدًا.",
+    "emailError": "أدخل بريدًا إلكترونيًا صالحًا."
+  }
+}
